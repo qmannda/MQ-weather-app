@@ -15,12 +15,13 @@
   <body>
     <div class="container">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
             class="search-input"
+            id="search-input"
           />
           <input type="submit" value="Search" class="search-btn" />
         </form>
@@ -28,7 +29,7 @@
       <main>
         <div class="app-data">
           <div>
-            <h1 class="current-location">Paris</h1>
+            <h1 class="current-location" id="city">Paris</h1>
             <p class="current-weather">
               Sunday 13:49, moderate rain
               <br />
@@ -53,5 +54,6 @@
         <a href="https://www.netlify.com/" target="_blank">Netlify</a>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
