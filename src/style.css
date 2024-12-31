@@ -99,8 +99,10 @@ a {
 }
 
 .forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin-inline-start: 0 auto;
 }
 
 .forecast-temp {
